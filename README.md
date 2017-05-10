@@ -6,3 +6,5 @@ There is a master process which is elected using the leader election algorithm. 
 gloabl.cpp executes with minimum overall expected response time. 
 global_faulty1.cpp to global_faulty5.cpp are executed with false bids, and hence run with a higher overall expected response time. 
 Each line in the file cmd_lines is treated as a job for execution. 
+
+Technologies used : C++, OpenMPI
